@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <ul className='flex items-center gap-x-4 font-primary font-bold text-[16px] text-[#141414]  '>
+                <ul className='flex items-center gap-x-7.5 font-primary font-bold text-[16px] text-[#141414]  '>
                     <li className='cursor-pointer'>Home</li>
                     <li className='cursor-pointer'>About</li>
                     <li className='flex items-center gap-x-0.75 cursor-pointer'>
