@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Rajdhani", sans-serif;
+  --font-secondary:"Rubik", sans-serif; 
+}
+
+@layer utilities {
+  .container {
+     @apply max-w-322.5 mx-auto;
+  }
+}
