@@ -12,3 +12,8 @@
      @apply max-w-322.5 mx-auto;
   }
 }
+@layer utilities {
+  .cardcontainer {
+     @apply max-w-81.25 mx-auto;
+  }
+}
