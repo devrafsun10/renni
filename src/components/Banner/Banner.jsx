@@ -27,8 +27,8 @@ const Banner = () => {
   };
 
   return (
-    <div className="bg-[#FFFFFF] pt-0 pb-27.25 relative">
-      <div className=" container flex items-center justify-between ">
+    <div className="bg-[#FFFFFF] pt-0 pb-27.25 relative hidden md:block">
+      <div className="container md:flex items-center justify-between ">
         {/* left part */}
         <div>
           <h4 className="font-primary font-bold text-[28px] text-[#141414]">
@@ -44,11 +44,11 @@ const Banner = () => {
         </div>
         {/* center part */}
         <div className="relative">
-          <div className="absolute -bottom-14 -right-65.5 z-0 max-w-270">
+          <div className=" hidden md:block absolute -bottom-14 -right-65.5 z-0 max-w-270">
             <img className="max-w-270" src={webblack} alt="webblack" />
           </div>
 
-          <div className="absolute -bottom-15 left-4 z-20 max-w-225">
+          <div className=" hidden md:block md:absolute md:-bottom-15 md:left-4 z-20 max-w-225">
             <img className="max-w-full" src={webred} alt="webred" />
           </div>
 
@@ -101,7 +101,7 @@ const Banner = () => {
       {/* card */}
 
       {show ? (
-        <div className="w-100 bg-[#F4F4F4] absolute top-0 right-0">
+        <div className="w-100 bg-[#F4F4F4] absolute top-0 right-0 z-25">
           <div className=" flex items-center justify-between py-5.5 px-2 bg-[#EDEDED]">
             <img src={logo} alt="logo" />
             <img
