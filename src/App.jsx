@@ -3,6 +3,7 @@ import Bannerresponsive from "./components/Banner/Bannerresponsive"
 import Card from "./components/Card/Card"
 import Counter from "./components/Counter/Counter"
 import Navbar from "./components/Navbar/Navbar"
+import Service from "./components/Service/Service"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Bannerresponsive/>
     <Card/>
     <Counter/>
+    <Service />
     </>
   )
 }
