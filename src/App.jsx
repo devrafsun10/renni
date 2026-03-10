@@ -3,6 +3,7 @@ import Bannerresponsive from "./components/Banner/Bannerresponsive"
 import Card from "./components/Card/Card"
 import Counter from "./components/Counter/Counter"
 import Exprience from "./components/Exprience/Exprience"
+import Logo from "./components/Logo/Logo"
 import Navbar from "./components/Navbar/Navbar"
 import Protfolio from "./components/Protfolio/Protfolio"
 import Service from "./components/Service/Service"
@@ -23,6 +24,7 @@ function App() {
     <Skill />
     <Education />
     <Exprience />
+    <Logo/>
     </>
   )
 }
