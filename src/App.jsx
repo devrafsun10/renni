@@ -5,6 +5,7 @@ import Counter from "./components/Counter/Counter"
 import Navbar from "./components/Navbar/Navbar"
 import Protfolio from "./components/Protfolio/Protfolio"
 import Service from "./components/Service/Service"
+import Skill from "./components/Skill/Skill"
 import Education from "./Education/Education"
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Counter/>
     <Service />
     <Protfolio />
+    <Skill />
     <Education />
     </>
   )
